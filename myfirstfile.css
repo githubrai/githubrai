@@ -1,0 +1,41 @@
+body{
+    background: red;
+    color: black;
+
+}
+* {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.container div:nth-child(1), div:nth-child(5){
+background-color: violet;
+font-family: serif;
+}
+
+.container div:nth-child(2), div:nth-child(6){
+    background-color: pink;
+    font-style: bold;
+
+}
+
+.container div:nth-child(3){
+    background-color: gainsboro;
+    font-display: initial;
+}
+
+.container div:nth-child(4){
+    background-color: indigo;
+    font-style: italic;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 3em 1.6em 1.7em;
+    grid-auto-rows: 3em;
+    grid-gap: 10px 15px;
+}
+
