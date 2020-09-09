@@ -97,3 +97,9 @@ img {
 h3 {
     display: inline;
 }
+@media screen and (max-width:600px) {
+    body {
+   font-display: sans-serif;
+   font-size: 1.6em;
+    }
+}
