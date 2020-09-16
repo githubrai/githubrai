@@ -24,7 +24,7 @@
     padding-bottom: 1%;
 }
 .place {
-    margin-left: 20%;
+    margin-left: 10%;
     width: 50%;
     padding-top: 4%;
     line-height: 1em;
@@ -41,7 +41,7 @@
 }
 
 .aboutme {
-    padding: 10% 15% 50% 15%;
+    padding: 10% 10% 40% 10%;
 }
 .name {
     padding-bottom: 30%;
@@ -52,11 +52,10 @@
     text-align: center;
     margin-top: 5%;
 }
-.references {
-    margin-top: 1%;
-}
 .ref {
     display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .profile {
    border-radius: 50%;
@@ -79,7 +78,6 @@
     border-style: solid;
     border-width: .1em;
     padding: 10%;
-
 }
 .hobbie1 {
     padding: 5%;
@@ -102,7 +100,6 @@ h3 {
     border-color: #FFC133;
     border-width: 2px;
 }
-
 @media screen and (max-width:768px) {
     .row {
         flex-direction: column;
@@ -114,14 +111,34 @@ h3 {
         border-radius: 50%;
         padding: 5%;
         display: block;
-        width: 30%;
         height: 10%;
     }
      .contact {
         padding: 5%;
+        line-height: 1.6em
         
     }
     .aboutme {
-        padding: 5%;
+        padding: 5% 5% 15% 5%;
+        line-height: 1.6em;
+    }
+    .hobbies { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 200%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .column2 {
+        width: 100%;
+    }
+    .place {
+        padding-top: 4%;
+        line-height: 1em;
+    }
+   .ref {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
