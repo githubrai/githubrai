@@ -124,4 +124,7 @@ h3 {
     .column2 {
         width: auto;
     }
+    .myname {
+        padding-top: 5%;
+    }
 }
