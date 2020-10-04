@@ -6,12 +6,12 @@ body {
     display: flex;
 }
 .column1 {
-    width: 30%;
+    width: 40%;
     background: #FFC133;
     height: 100%;
 }
 .column2 {
-    width: 70%;
+    width: 60%;
     margin-left: 5%;
 }
 .myname {
@@ -24,10 +24,11 @@ body {
 }
 .place {
     margin-left: 10%;
-    width: 60%;
+    width: 85%;
+
 }
 .date {
-    width: 10%;
+    width: 15%;
 }
 .contact {
     padding-left: 5%;
